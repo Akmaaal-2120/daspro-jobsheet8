@@ -7,8 +7,8 @@ public class assignment1 {
 
         if (row >= 3){
             for(int r = 1; r <=row; r++){
-                for(int n = 1; n <= row; n++){
-                    if(r == row || r == 1 || n == row || n == 1){
+                for(int c = 1; c <= row; c++){
+                    if(r == row || c == row || c == 1 || r == 1){
                         System.out.print(row);
                     }else{
                         System.out.print(" ");
