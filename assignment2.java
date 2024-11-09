@@ -14,12 +14,14 @@ public class assignment2 {
             for(int n = 1; n <= 4; n++){
                 System.out.print("Enter your Sports : ");
                 sports = sc.nextLine();
+                System.out.println();
                 System.out.println("Athlete for " + sports);
                 for(int m = 1; m <= 5; m++){
                     System.out.print("Enter your Athlete : ");
                     name = sc.nextLine();
                     System.out.println("Polytechnic : " + poly + "\nName : " + name);
                 }
+                System.out.println();
             }
         }
     }
